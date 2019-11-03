@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="app">
+        Hello world
+      </div>
+
+      <div id="app-5">
+        <p>TEST</p>
+        <button v-on:click="reverseMessage">inverser le message</button>
+      </div>
+
+      <div id="app-6">
+        <p>TEST2</p>
+        <input v-model="message">
+      </div>
+      <br>
+      <navigation-link url="/profile">
+        Se connnecter en tant que Alexandre
+      </navigation-link>
+        <br>
+      <navigation-link url="/profile">
+        Cliquer ici vous amènera à votre profil
+      </navigation-link>
+      
+      <button type="submit">
+        Envoyer
+      </button>
+
+</body>
+</html>
